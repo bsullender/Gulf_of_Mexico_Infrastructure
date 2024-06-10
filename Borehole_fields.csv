@@ -1,0 +1,37 @@
+﻿Start Position,Item Length,Column Alias,Definition
+1,12,API Well Number,"API Well Number - A unique well identification number consisting of (left to right) a two digit state code (or pseudo for offshore), a three digit county code (or pseudo for offshore), a five digit unique well code, and if applicable, a two digit sidetrack code as defined in API Bulletin D12A."
+13,6,Well Name,Well Name - The name assigned to the well. It may be a special name or the name of the property to which the well belongs.
+19,8,Well Name Suffix,Well Name Suffix - An extension to the well name that indicates the number of times that a new wellbore has been drilled.
+27,5,Operator Number,"Operator Number - The number assigned by Minerals Management Service to a business entity, individual, or agency with whom MMS does business or exchanges information."
+32,8,Bottom Field Name Code,Bottom Field Name Code - Name of the field in which the bottom of the well is located.
+40,8,Spud Date,Spud Date - YYYYMMDD - The date that the drilling rig first begins boring into the earth's surface.
+48,10,Bottom Lease Number,Bottom Lease Number - The number assigned to a lease by the regulatory agency having jurisdiction over mineral activity in the territory where the lease is located.
+58,5,RKB Elevation,"RKB Elevation - The distance, in feet, from the rig's kelly bushing to the mean sea level."
+63,5,BH Total MD,Borehole Total Measured Depth - The actual distance measured along the axis of the borehole from the rig kelly bushing to the dept maximum penetration of the well.
+68,5,True Vertical Depth,"True Vertical Depth - The vertical distance, in feet, from the rig kelly bushing to the maximum depth of the well."
+73,5,Surface N/S Distance,Surface N/S Distance - North/South footage or distance that represents the length of the measurement from an identifiable line. The distance from the borehole surface location to either the north or south block boundary.
+78,1,Surface N/S Code,Surface N/S Code - North/South descriptor that indicates the direction of a measurement from an identifiable line. Indicates whether the surface borehole location is measured from the north (N) or south (S) block boundary.
+79,5,Surface E/W Distance,Surface E/W Distance - East/West footage or distance that represents the length of a measurement from an identifiable line. The distance from the borehole surface location to either the east or west block boundary.
+84,1,Surface E/W Code,Surface E/W Code - East/West descriptor that indicates the direction of a measurement from an identifiable line. Indicates whether the surface borehole location is measured from the east (E) or west (W) block boundary.
+85,2,Surface Area,Surface Area - The indicator used to identify an area name.
+87,6,Surface Block,"Surface Block - Identifies a subdivision of an Official Protraction Diagram, as applied to the subdivision containing the surface location of a well."
+93,5,Bottom N/S Distance,Bottom N/S Distance - The distance from the borehole bottom location to either the north or south block boundary.
+98,1,Bottom N/ S Code,Bottom N/ S Code - Indicates whether the borehole bottom location is measured from the north (N) or south (S) block boundary.
+99,5,Bottom E/ W Distance,Bottom E/W Distance - The distance from the location of borehole bottom to either the east or west block boundary.
+104,1,Bottom E/ W Code,Bottom E/W Code - Indicates whether the borehole bottom location is measured from the east (E) or west (W) block boundary.
+105,2,Bottom Area,"Bottom Area  Code - The designated abbreviation assigned to Outer Continental Shelf (OCS) geographical units for identification purposes and for use on maps and in data bases, as applied to the bottomhole location of a well."
+107,6,Bottom Block,"Bottom Block Number - Identifies a subdivision of an Official Protraction Diagram, as applied to the subdivision containing the bottomhole location of a well."
+113,8,Total Depth Date,Total Depth Date - YYYYMMDD - The date drilling on a well reached the final total depth.
+121,8,Status Date,Status Date - YYYYMMDD - The date the borehole status became effective.
+129,1,Type Code,Type Code - Indicates the final classification of a borehole denoting purpose of the drilling.
+130,2,District Code,"District Code - An indicator assigned to a sub-office of an Outer Continental Shelf (OCS) regional office which has delegated authority for field operations activities including: permitting wells, inspections, drilling, and production operations."
+132,3,Status Code,Status Code Indicates the conditions relating to a borehole.
+135,5,Water Depth,Water Depth - The depth of water at a well/platform location from the water level to the mud line.
+140,16,Surface Longitude,Surface Longitude - Angle measured about the spheroid axis from a local prime meridan to the meridian through the point. A longitude value of a location in the borehole.
+156,16,Surface Latitude,Surface Latitude - Angle subtended with equatorial plane by a perpendicular from a point on the surface of a spheroid. A positive value of a location in the borehole.
+172,16,Bottom Longitude,Bottom Longitude -Angle measured about the spheroid axis from a local prime meridan to the meridian. A positive value denotes east. The longitude value of a location in the borehole.
+188,16,Bottom Latitude,Bottom Latitude - Angle subtended with equatorial plane by a perpendicular from a point on the surface of a spheroid. A positive value denotes north. The latitude value of a location in the borehole.
+204,10,Surface Lease Number,Surface Lease Number - The number assigned to a lease by the regulatory agency having jurisdiction over mineral activity in the territory where the lease is located.
+214,7,Complex ID Num,Complex ID Num - The unique identifier assigned to a single man-made structure or a group of structures connected by a walkway.
+221,2,Structure Number,Structure Number - A unique number assigned to a specific structure within a complex.
+223,8,Update Date,Update Date - YYYYMMDD - The latest borehole record update or weekly activity change.
