@@ -9,6 +9,14 @@
 library(tidyverse)
 library(lubridate)
 
+# This script builds on the well analysis conducted by Agerton et al. (20203) and 
+#       adds in missing dates from publicly accessible BOEM data to enable animated mapping.
+# Full citation is:
+#       Agerton, M., Narra, S., Snyder, B. and Upton Jr, G.B., 2023. 
+#           Financial liabilities and environmental implications of unplugged wells for the Gulf of Mexico
+#           and coastal waters. Nature Energy, 8(5), pp.536-547.
+
+
 # read in Agerton et al. 2023 data, and filter out wells in the Pacific.
 agertonGulf <- read.table("./Wellbore Cost Data.tab",sep="\t",header=T) %>%
   filter(region_id %in% c(1,4,6,7,9,10)) %>% filter(api10 != "00-000-00000")
